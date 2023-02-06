@@ -26,7 +26,7 @@ export default function BrandList() {
       }
     };
     getData();
-  }, );
+  }, [setBrands]);
   return (
     <StyledApp>
       <ul>
